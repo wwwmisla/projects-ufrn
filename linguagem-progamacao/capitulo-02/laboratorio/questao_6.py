@@ -1,10 +1,19 @@
-def main():
-    coordenada_x = float(input())
-    coordenada_y = float(input())
+'''
+Capítulo 2: Tipos de dados e Estruturas Condicionais das Listas de Linguagem de Programação - ECT3201
+Questão: 6
+Feito por: Misla Wislaine
+'''
+
+def main (): 
+    # Entrada | Recebe as coordenadas x e y
+    x =  float(input())
+    y =  float(input())
+
+    # Manipulando os valores
+    coordernadas = (x,y) # Criação de tupla com as coordenadas
+
+    # Saída 
+    print(f"Coordenadas: {coordernadas}")
     
-    coordenadas = (coordenada_x, coordenada_y)
-    
-    print(f"Coordenadas: {coordenadas}")
-    
-if __name__ == "__main__":
-    main()
+if __name__ == "__main__": 
+    main() 

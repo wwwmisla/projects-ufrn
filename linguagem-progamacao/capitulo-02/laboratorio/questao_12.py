@@ -1,23 +1,26 @@
-def main():
-    # Cria um dicionário vazio para armazenar as informações do aluno
-    aluno = {}
+'''
+Capítulo 2: Tipos de dados e Estruturas Condicionais das Listas de Linguagem de Programação - ECT3201
+Questão: 12
+Feito por: Misla Wislaine
+'''
 
-    # Coleta as informações do aluno
-    aluno.__setitem__('nome', input())
-    aluno.__setitem__('matricula', input())
+def main (): 
+    # Entrada 
+    aluno = dict()
 
-    # Coleta as notas do aluno
-    for i in range(1, 4):
-        nota = float(input())
-        aluno.__setitem__(f'nota_{i}', nota)  # Usando método especial para adicionar a nota
+    # Manipulando os valores 
 
-    # Calcula a média das notas usando os métodos especiais
-    media = (aluno.__getitem__('nota_1') + aluno.__getitem__('nota_2') + aluno.__getitem__('nota_3')) / 3
+    # Coletando informações do aluno
+    aluno.update({"nome": input()}) # Coleta o nome do aluno
+    aluno.update({"matricula": input()}) # Coleta a matrícula do aluno
+    aluno.update({"nota1": float(input())}) # Coleta a nota1 do aluno
+    aluno.update({"nota2": float(input())}) # Coleta a nota2 do aluno
+    aluno.update({"nota3": float(input())}) # Coleta a nota3 do aluno
 
-    # Exibe os dados do aluno
-    print(f"Nome: {aluno.__getitem__('nome')}")
-    print(f"Matrícula: {aluno.__getitem__('matricula')}")
-    print(f"Média: {media:.2f}")
-
-if __name__ == "__main__":
-    main()
+    # Calculando a média do aluno
+    media = (aluno.get("nota1") + aluno.get("nota2") + aluno.get("nota3")) / 3
+    
+    # Saída 
+    print(f"Nome: {aluno.get('nome')}\nMatrícula: {aluno.get('matricula')}\nMédia: {media:.2f}")
+if __name__ == "__main__": 
+    main() 

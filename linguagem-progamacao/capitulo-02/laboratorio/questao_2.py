@@ -1,15 +1,21 @@
-def main():
-    # Palavra ou frase do usuário
-    pOuf = input()
-    
-    print(f'{len(pOuf)}\n{pOuf[0]}\n{pOuf[-1]}\n{pOuf[::-1]}')
-    
-    #comprimento_string = len(pOuf)
-    #primeira_letra_string = pOuf[0]
-    #ultima_letra_string = pOuf[comprimento_string-1]
-    #inverte_pOuf = pOuf[::-1]
+'''
+Capítulo 2: Tipos de dados e Estruturas Condicionais das Listas de Linguagem de Programação - ECT3201
+Questão: 2
+Feito por: Misla Wislaine
+'''
 
-    #print(f"{comprimento_string}\n{primeira_letra_string}\n{ultima_letra_string}\n{inverte_pOuf}")
+def main (): 
+    # Entrada 
+    frase_palavra = input()
+
+    # Manipulando os valores
+    comprimento = len(frase_palavra) # Comprimento da String usando a função len()
+    primeira_letra = frase_palavra[0] # Primeira letra da String 
+    ultima_letra = frase_palavra[-1] # Última letra da String
+    invertida = frase_palavra[::-1] # Inverte a String
     
-if __name__ == "__main__":
-    main()
+    # Saída 
+    print(f"{comprimento}\n{primeira_letra}\n{ultima_letra}\n{invertida}")
+
+if __name__ == "__main__": 
+    main() 

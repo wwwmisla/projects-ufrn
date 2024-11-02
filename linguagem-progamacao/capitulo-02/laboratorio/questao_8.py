@@ -1,21 +1,29 @@
-def main():
-    numeros = set()  # Cria um conjunto vazio
+'''
+Capítulo 2: Tipos de dados e Estruturas Condicionais das Listas de Linguagem de Programação - ECT3201
+Questão: 8
+Feito por: Misla Wislaine
+'''
 
-    # Solicita ao usuário cinco números inteiros distintos
-    numero1 = int(input())
-    numero2 = int(input())
-    numero3 = int(input())
-    numero4 = int(input())
-    numero5 = int(input())
+def main (): 
+    # Entrada | Recebendo cinco números inteiros distintos 
+    n1 = int(input())
+    n2 = int(input())
+    n3 = int(input())
+    n4 = int(input())
+    n5 = int(input())
 
-    # Adiciona os números ao conjunto
-    numeros.add(numero1)
-    numeros.add(numero2)
-    numeros.add(numero3)
-    numeros.add(numero4)
-    numeros.add(numero5)
+    # Manipulando os valores 
+    numeros = set() # Criando o conjunto numeros vazio
 
-    print(f"{numeros}")  # Imprime o conjunto completo
+    # Adicionando os números ao conjunto
+    numeros.add(n1)
+    numeros.add(n2)
+    numeros.add(n3)
+    numeros.add(n4)
+    numeros.add(n5)
 
-if __name__ == "__main__":
-    main()
+    # Saída 
+    print(numeros) # Imprime o conjunto completo
+
+if __name__ == "__main__": 
+    main() 

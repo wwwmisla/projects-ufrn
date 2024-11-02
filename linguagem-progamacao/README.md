@@ -79,7 +79,7 @@ As listas de exercícios estão organizadas na tabela abaixo:
 | Lista | Resolvido | Revisado | Anotado |
 |----------------|-----------|----------|---------|
 | [Lista 01 - Fundamentos de Python](linguagem-progamacao\capitulo-01\laboratorio\ch1)       | [✅]       | [✅]      | [✅]    |
-| [Lista 02 - Tipos de Dados e Estruturas Condicionais](linguagem-progamacao\capitulo-02\laboratorio)       | [✅]       | [❌]      | [❌]     |
+| [Lista 02 - Tipos de Dados e Estruturas Condicionais](linguagem-progamacao\capitulo-02\laboratorio)       | [✅]       | [✅]      | [❌]     |
 | [Lista 03 - Operadores e Expressões](linguagem-progamacao\capitulo-03\laboratorio)      | [✅]       | [❌]      | [❌]     |
 | [Lista 04 - Controle de Fluxo e Números Aleatórios](linguagem-progamacao\capitulo-04\laboratorio)       | [✅]       | [❌]      | [❌]     |
 

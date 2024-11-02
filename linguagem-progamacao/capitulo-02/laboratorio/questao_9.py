@@ -1,27 +1,38 @@
-def main():
-    # Inicializa os conjuntos
-    conjunto_a = set()
-    conjunto_b = set()
+'''
+Capítulo 2: Tipos de dados e Estruturas Condicionais das Listas de Linguagem de Programação - ECT3201
+Questão: 9
+Feito por: Misla Wislaine
+'''
 
-    # Solicita ao usuário que insira três números inteiros para o conjunto A
-    for i in range(3):
-        numero = int(input())
-        conjunto_a.add(numero)
+def main (): 
+    # Entrada | Recebendo três diferentes números inteiros para os conjuntos 'a' e 'b'.
+    n1_a = int(input())
+    n2_a = int(input())
+    n3_a = int(input())
+    n1_b = int(input())
+    n2_b = int(input())
+    n3_b = int(input())
 
-    # Solicita ao usuário que insira três números inteiros para o conjunto B
-    for i in range(3):
-        numero = int(input())
-        conjunto_b.add(numero)
+    # Manipulando os valores 
+    conjunto_a = set() # Cria o conjunto 'a' vazio
+    conjunto_b = set() # Cria o conjunto 'b' vazio
 
-    # Realiza as operações
-    uniao = conjunto_a | conjunto_b # Ou conjunto_a.union(conjunto_b)
-    intersecao = conjunto_a & conjunto_b # Ou conjunto_a.intersection(conjunto_b)
-    diferenca = conjunto_a - conjunto_b # Ou conjunto_a.difference(conjunto_b)
+    # Adicionando os números aos conjuntos com o método .add()
+    conjunto_a.add(n1_a) # Adiciona n1_a ao conjunto 'a'
+    conjunto_a.add(n2_a) # Adiciona n2_a ao conjunto 'a'
+    conjunto_a.add(n3_a) # Adiciona n3_a ao conjunto 'a'
 
-    # Imprime os resultados
-    print(f"União: {uniao}")
-    print(f"Interseção: {intersecao}")
-    print(f"Diferença: {diferenca}")
+    conjunto_b.add(n1_b) # Adiciona n1_b ao conjunto 'b'
+    conjunto_b.add(n2_b) # Adiciona n2_b ao conjunto 'b'
+    conjunto_b.add(n3_b) # Adiciona n3_b ao conjunto 'b'    
 
-if __name__ == "__main__":
-    main()
+    # Realizando as operações 
+    conjunto_uniao = conjunto_a | conjunto_b # Realiza a união do conjunto 'a' com conjunto 'b' através do |
+    conjunto_intersecao = conjunto_a & conjunto_b # Realiza a interseção do conjunto 'a' com conjunto 'b' através do &
+    conjunto_diferenca = conjunto_a - conjunto_b # Realiza a diferença do conjunto 'a' com conjunto 'b' através do -
+
+    # Saída 
+    print(f"União: {conjunto_uniao}\nInterseção: {conjunto_intersecao}\nDiferença: {conjunto_diferenca}")
+
+if __name__ == "__main__": 
+    main() 

@@ -1,9 +1,17 @@
-def main():
-    nota1 = float(input())
-    nota2 = float(input())
-    nota3 = float(input())
-    media = (nota1 + nota2 + nota3)/3
-    print(media)
-    
-if __name__ == "__main__":
-    main()
+'''
+Capítulo 1: Introdução à Programação das Listas de Linguagem de Programação - ECT3201
+Questão: 4
+Feito por: Misla Wislaine
+'''
+
+def main (): 
+    nota_1 = float(input()) # Variável que recebe a primeira nota, ela está convertendo a string em um número ponto flutuante
+    nota_2 = float(input()) # Variável que recebe a segunda nota, ela está convertendo a string em um número ponto flutuante
+    nota_3 = float(input()) # Variável que recebe a terceira nota, ela está convertendo a string em um número ponto flutuante
+
+    media = (nota_1 + nota_2 + nota_3)/3 # Variável que realiza a manipulação, fazendo o cálculo da média das notas e armazenando esse dado
+
+    print(media) # Imprimindo a média das três notas
+
+if __name__ == "__main__": 
+    main() 
