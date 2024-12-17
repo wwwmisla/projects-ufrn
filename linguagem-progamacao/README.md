@@ -78,10 +78,12 @@ As listas de exercícios estão organizadas na tabela abaixo:
 
 | Lista | Resolvido | Revisado | Anotado |
 |----------------|-----------|----------|---------|
-| [Lista 01 - Fundamentos de Python](linguagem-progamacao\capitulo-01\laboratorio\ch1)       | [✅]       | [✅]      | [✅]    |
-| [Lista 02 - Tipos de Dados e Estruturas Condicionais](linguagem-progamacao\capitulo-02\laboratorio)       | [✅]       | [✅]      | [❌]     |
-| [Lista 03 - Operadores e Expressões](linguagem-progamacao\capitulo-03\laboratorio)      | [✅]       | [❌]      | [❌]     |
-| [Lista 04 - Controle de Fluxo e Números Aleatórios](linguagem-progamacao\capitulo-04\laboratorio)       | [✅]       | [❌]      | [❌]     |
+| [Lista 01 - Fundamentos de Python](https://github.com/wwwmisla/projects-ufrn/tree/main/linguagem-progamacao/capitulo-01/laboratorio)       | [✅]       | [✅]      | [✅]    |
+| [Lista 02 - Tipos de Dados e Estruturas Condicionais](https://github.com/wwwmisla/projects-ufrn/tree/main/linguagem-progamacao/capitulo-02/laboratorio)       | [✅]       | [✅]      | [❌]     |
+| [Lista 03 - Operadores e Expressões](https://github.com/wwwmisla/projects-ufrn/tree/main/linguagem-progamacao/capitulo-03/laboratorio)      | [✅]       | [❌]      | [❌]     |
+| [Lista 04 - Controle de Fluxo e Números Aleatórios](https://github.com/wwwmisla/projects-ufrn/tree/main/linguagem-progamacao/capitulo-04/laboratorio)       | [✅]       | [❌]      | [❌]     |
+| [Lista 05 - Funções e Modularização](https://github.com/wwwmisla/projects-ufrn/tree/main/linguagem-progamacao/capitulo-05/laboratorio)       | [✅]       | [❌]      | [❌]     |
+| [Lista 06 - Manipulação de Strings](https://github.com/wwwmisla/projects-ufrn/tree/main/linguagem-progamacao/capitulo-06/laboratorio)       | [✅]       | [❌]      | [❌]     |
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -90,6 +92,7 @@ As listas de exercícios estão organizadas na tabela abaixo:
   <img src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=google-colab&logoColor=white" alt="Google Colab" />
   <img src="https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
   <img src="https://img.shields.io/badge/Sistema%20Lop-000000?style=for-the-badge&logo=null&logoColor=white" alt="Sistema Lop" />
+  <img src="https://img.shields.io/badge/Multi%20Prova-000000?style=for-the-badge&logo=null&logoColor=white" alt="Multi Prova" />
 </div>
 
 
